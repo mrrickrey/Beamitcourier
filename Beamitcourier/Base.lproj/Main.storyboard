@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JOA-ka-bcn">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="JOA-ka-bcn">
                                 <rect key="frame" x="120" y="40" width="135" height="197.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beamlogin" translatesAutoresizingMaskIntoConstraints="NO" id="Cal-8F-2nc">
@@ -32,7 +32,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEAMIT!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOe-YS-Eda">
-                                        <rect key="frame" x="0.0" y="168" width="135" height="29.5"/>
+                                        <rect key="frame" x="0.0" y="172" width="135" height="25.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="104" id="2Vw-wZ-WsC"/>
                                         </constraints>
@@ -160,12 +160,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+            <point key="canvasLocation" x="-366" y="37"/>
         </scene>
-        <!--View Controller-->
+        <!--MapVC-->
         <scene sceneID="nHR-O7-zzA">
             <objects>
-                <viewController id="A9j-c2-I5T" sceneMemberID="viewController">
+                <viewController id="A9j-c2-I5T" customClass="mapVC" customModule="Beamitcourier" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rsK-Uy-f28"/>
                         <viewControllerLayoutGuide type="bottom" id="gvo-5i-v50"/>
@@ -173,12 +173,23 @@
                     <view key="view" contentMode="scaleToFill" id="UCa-EX-Uwn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="p4T-nX-1bd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p4T-nX-1bd" firstAttribute="top" secondItem="UCa-EX-Uwn" secondAttribute="top" id="7tY-4n-ias"/>
+                            <constraint firstItem="p4T-nX-1bd" firstAttribute="leading" secondItem="UCa-EX-Uwn" secondAttribute="leading" id="WAF-8B-9Qq"/>
+                            <constraint firstAttribute="trailing" secondItem="p4T-nX-1bd" secondAttribute="trailing" id="fK3-Ie-ZhD"/>
+                            <constraint firstItem="gvo-5i-v50" firstAttribute="top" secondItem="p4T-nX-1bd" secondAttribute="bottom" id="rIk-v8-4aN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31j-XJ-N0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="889" y="38"/>
+            <point key="canvasLocation" x="813.60000000000002" y="35.532233883058474"/>
         </scene>
     </scenes>
     <resources>
