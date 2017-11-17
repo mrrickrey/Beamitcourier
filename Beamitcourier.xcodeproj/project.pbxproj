@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0078F920842B103B6FB8A6 /* Pods_Beamitcourier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBF1D8941673D6E358AEF1 /* Pods_Beamitcourier.framework */; };
 		5B6A952F1FBF555D00ADD3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */; };
-		5B6A95311FBF555D00ADD3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A95301FBF555D00ADD3E1 /* ViewController.swift */; };
+		5B6A95311FBF555D00ADD3E1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */; };
 		5B6A95341FBF555D00ADD3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95321FBF555D00ADD3E1 /* Main.storyboard */; };
 		5B6A95371FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A95351FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld */; };
 		5B6A95391FBF555D00ADD3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */; };
 		5B6A953C1FBF555D00ADD3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A953A1FBF555D00ADD3E1 /* LaunchScreen.storyboard */; };
+		5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B6A952B1FBF555D00ADD3E1 /* Beamitcourier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beamitcourier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B6A95301FBF555D00ADD3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		5B6A95331FBF555D00ADD3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B6A95361FBF555D00ADD3E1 /* Beamitcourier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beamitcourier.xcdatamodel; sourceTree = "<group>"; };
 		5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6A953B1FBF555D00ADD3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B6A953D1FBF555D00ADD3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-9.plist"; sourceTree = "<group>"; };
+		770C089401E67000F9303A8D /* Pods-Beamitcourier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beamitcourier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier.debug.xcconfig"; sourceTree = "<group>"; };
+		A52B4D63E61BCD675CF50DDE /* Pods-Beamitcourier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beamitcourier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier.release.xcconfig"; sourceTree = "<group>"; };
+		CDBBF1D8941673D6E358AEF1 /* Pods_Beamitcourier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beamitcourier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0078F920842B103B6FB8A6 /* Pods_Beamitcourier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C377F5C937C01D85A5EBC56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				770C089401E67000F9303A8D /* Pods-Beamitcourier.debug.xcconfig */,
+				A52B4D63E61BCD675CF50DDE /* Pods-Beamitcourier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D38B78CA50BC467AEC979A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDBBF1D8941673D6E358AEF1 /* Pods_Beamitcourier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B6A95221FBF555D00ADD3E1 = {
 			isa = PBXGroup;
 			children = (
 				5B6A952D1FBF555D00ADD3E1 /* Beamitcourier */,
 				5B6A952C1FBF555D00ADD3E1 /* Products */,
+				0C377F5C937C01D85A5EBC56 /* Pods */,
+				2D38B78CA50BC467AEC979A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */,
-				5B6A95301FBF555D00ADD3E1 /* ViewController.swift */,
+				5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */,
 				5B6A95321FBF555D00ADD3E1 /* Main.storyboard */,
 				5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */,
 				5B6A953A1FBF555D00ADD3E1 /* LaunchScreen.storyboard */,
 				5B6A953D1FBF555D00ADD3E1 /* Info.plist */,
+				5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */,
 				5B6A95351FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld */,
 			);
 			path = Beamitcourier;
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6A95401FBF555D00ADD3E1 /* Build configuration list for PBXNativeTarget "Beamitcourier" */;
 			buildPhases = (
+				4F04DB8C0F866C27F3D0DE1F /* [CP] Check Pods Manifest.lock */,
 				5B6A95271FBF555D00ADD3E1 /* Sources */,
 				5B6A95281FBF555D00ADD3E1 /* Frameworks */,
 				5B6A95291FBF555D00ADD3E1 /* Resources */,
+				6006B2BFC0CD7DCD1D10EB6F /* [CP] Embed Pods Frameworks */,
+				70D4FE973E5995E0F0C5ABED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +129,7 @@
 				TargetAttributes = {
 					5B6A952A1FBF555D00ADD3E1 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 859JXUC44F;
+						DevelopmentTeam = LW6C38R884;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6A953C1FBF555D00ADD3E1 /* LaunchScreen.storyboard in Resources */,
+				5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info-9.plist in Resources */,
 				5B6A95391FBF555D00ADD3E1 /* Assets.xcassets in Resources */,
 				5B6A95341FBF555D00ADD3E1 /* Main.storyboard in Resources */,
 			);
@@ -135,12 +166,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F04DB8C0F866C27F3D0DE1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Beamitcourier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6006B2BFC0CD7DCD1D10EB6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D4FE973E5995E0F0C5ABED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B6A95271FBF555D00ADD3E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6A95311FBF555D00ADD3E1 /* ViewController.swift in Sources */,
+				5B6A95311FBF555D00ADD3E1 /* SignInVC.swift in Sources */,
 				5B6A952F1FBF555D00ADD3E1 /* AppDelegate.swift in Sources */,
 				5B6A95371FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld in Sources */,
 			);
@@ -263,9 +348,10 @@
 		};
 		5B6A95411FBF555D00ADD3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770C089401E67000F9303A8D /* Pods-Beamitcourier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 859JXUC44F;
+				DEVELOPMENT_TEAM = LW6C38R884;
 				INFOPLIST_FILE = Beamitcourier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.enrique-reyes.Beamitcourier";
@@ -276,9 +362,10 @@
 		};
 		5B6A95421FBF555D00ADD3E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52B4D63E61BCD675CF50DDE /* Pods-Beamitcourier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 859JXUC44F;
+				DEVELOPMENT_TEAM = LW6C38R884;
 				INFOPLIST_FILE = Beamitcourier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.enrique-reyes.Beamitcourier";
@@ -306,6 +393,7 @@
 				5B6A95421FBF555D00ADD3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
