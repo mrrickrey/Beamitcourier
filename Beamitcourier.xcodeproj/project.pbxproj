@@ -14,7 +14,7 @@
 		5B6A95371FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A95351FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld */; };
 		5B6A95391FBF555D00ADD3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */; };
 		5B6A953C1FBF555D00ADD3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A953A1FBF555D00ADD3E1 /* LaunchScreen.storyboard */; };
-		5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */; };
+		5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6A953B1FBF555D00ADD3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B6A953D1FBF555D00ADD3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-9.plist"; sourceTree = "<group>"; };
+		5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		770C089401E67000F9303A8D /* Pods-Beamitcourier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beamitcourier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier.debug.xcconfig"; sourceTree = "<group>"; };
 		A52B4D63E61BCD675CF50DDE /* Pods-Beamitcourier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beamitcourier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier.release.xcconfig"; sourceTree = "<group>"; };
 		CDBBF1D8941673D6E358AEF1 /* Pods_Beamitcourier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beamitcourier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,16 +82,40 @@
 		5B6A952D1FBF555D00ADD3E1 /* Beamitcourier */ = {
 			isa = PBXGroup;
 			children = (
+				5BE57BA21FBF647D0088101B /* Controller */,
+				5BE57BA11FBF64780088101B /* View */,
+				5BE57BA01FBF646D0088101B /* Model */,
 				5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */,
-				5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */,
 				5B6A95321FBF555D00ADD3E1 /* Main.storyboard */,
 				5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */,
 				5B6A953A1FBF555D00ADD3E1 /* LaunchScreen.storyboard */,
 				5B6A953D1FBF555D00ADD3E1 /* Info.plist */,
-				5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */,
+				5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info.plist */,
 				5B6A95351FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld */,
 			);
 			path = Beamitcourier;
+			sourceTree = "<group>";
+		};
+		5BE57BA01FBF646D0088101B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5BE57BA11FBF64780088101B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5BE57BA21FBF647D0088101B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6A953C1FBF555D00ADD3E1 /* LaunchScreen.storyboard in Resources */,
-				5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info-9.plist in Resources */,
+				5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info.plist in Resources */,
 				5B6A95391FBF555D00ADD3E1 /* Assets.xcassets in Resources */,
 				5B6A95341FBF555D00ADD3E1 /* Main.storyboard in Resources */,
 			);
