@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1093817946572-k5pbi1n8dk0o6vm0k55pr28n6l264h91.apps.googleusercontent.com</string>
+	<string>1093817946572-c0g6b8c9hmlrb1r9tpa6hkgqjhv53l1u.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1093817946572-k5pbi1n8dk0o6vm0k55pr28n6l264h91</string>
+	<string>com.googleusercontent.apps.1093817946572-c0g6b8c9hmlrb1r9tpa6hkgqjhv53l1u</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD1V_t5hnWa5QysVFU97xFinURx7GWE3mA</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.enrique-reyes.Beamitcourier</string>
+	<string>com.enrique-reyes.Beamit-courier</string>
 	<key>PROJECT_ID</key>
 	<string>beamitlo-7ff19</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1093817946572:ios:ba2ebf27af539f7d</string>
+	<string>1:1093817946572:ios:ddba4572205addca</string>
 	<key>DATABASE_URL</key>
 	<string>https://beamitlo-7ff19.firebaseio.com</string>
 </dict>
