@@ -8,16 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0B0078F920842B103B6FB8A6 /* Pods_Beamitcourier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBBF1D8941673D6E358AEF1 /* Pods_Beamitcourier.framework */; };
+		5B59A4EF1FBF9B3D00EC6A71 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59A4EE1FBF9B3D00EC6A71 /* AccountVC.swift */; };
+		5B59A4F11FBF9B4900EC6A71 /* FinanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59A4F01FBF9B4900EC6A71 /* FinanceVC.swift */; };
+		5B59A4F31FBF9B5700EC6A71 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59A4F21FBF9B5700EC6A71 /* ScheduleVC.swift */; };
 		5B6A952F1FBF555D00ADD3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */; };
 		5B6A95311FBF555D00ADD3E1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */; };
 		5B6A95341FBF555D00ADD3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95321FBF555D00ADD3E1 /* Main.storyboard */; };
 		5B6A95371FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A95351FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld */; };
 		5B6A95391FBF555D00ADD3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */; };
 		5B6A953C1FBF555D00ADD3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A953A1FBF555D00ADD3E1 /* LaunchScreen.storyboard */; };
-		5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info-9.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */; };
+		5B7082A91FC49DB000EED98F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B7082A81FC49DB000EED98F /* GoogleService-Info.plist */; };
+		5BE57BA41FBF65920088101B /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE57BA31FBF65920088101B /* mapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B59A4EE1FBF9B3D00EC6A71 /* AccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		5B59A4F01FBF9B4900EC6A71 /* FinanceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinanceVC.swift; sourceTree = "<group>"; };
+		5B59A4F21FBF9B5700EC6A71 /* ScheduleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
 		5B6A952B1FBF555D00ADD3E1 /* Beamitcourier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beamitcourier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -26,7 +33,9 @@
 		5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B6A953B1FBF555D00ADD3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B6A953D1FBF555D00ADD3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-9.plist"; sourceTree = "<group>"; };
+		5B7082A81FC49DB000EED98F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B7082AA1FC49F9E00EED98F /* Beamitcourier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beamitcourier.entitlements; sourceTree = "<group>"; };
+		5BE57BA31FBF65920088101B /* mapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
 		770C089401E67000F9303A8D /* Pods-Beamitcourier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beamitcourier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier.debug.xcconfig"; sourceTree = "<group>"; };
 		A52B4D63E61BCD675CF50DDE /* Pods-Beamitcourier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beamitcourier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier.release.xcconfig"; sourceTree = "<group>"; };
 		CDBBF1D8941673D6E358AEF1 /* Pods_Beamitcourier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beamitcourier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,16 +91,45 @@
 		5B6A952D1FBF555D00ADD3E1 /* Beamitcourier */ = {
 			isa = PBXGroup;
 			children = (
+				5B7082AA1FC49F9E00EED98F /* Beamitcourier.entitlements */,
+				5BE57BA21FBF647D0088101B /* Controller */,
+				5BE57BA11FBF64780088101B /* View */,
+				5BE57BA01FBF646D0088101B /* Model */,
 				5B6A952E1FBF555D00ADD3E1 /* AppDelegate.swift */,
-				5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */,
 				5B6A95321FBF555D00ADD3E1 /* Main.storyboard */,
 				5B6A95381FBF555D00ADD3E1 /* Assets.xcassets */,
 				5B6A953A1FBF555D00ADD3E1 /* LaunchScreen.storyboard */,
 				5B6A953D1FBF555D00ADD3E1 /* Info.plist */,
-				5B6A95431FBF55DF00ADD3E1 /* GoogleService-Info-9.plist */,
+				5B7082A81FC49DB000EED98F /* GoogleService-Info.plist */,
 				5B6A95351FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld */,
 			);
 			path = Beamitcourier;
+			sourceTree = "<group>";
+		};
+		5BE57BA01FBF646D0088101B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5BE57BA11FBF64780088101B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A95301FBF555D00ADD3E1 /* SignInVC.swift */,
+				5BE57BA31FBF65920088101B /* mapVC.swift */,
+				5B59A4EE1FBF9B3D00EC6A71 /* AccountVC.swift */,
+				5B59A4F01FBF9B4900EC6A71 /* FinanceVC.swift */,
+				5B59A4F21FBF9B5700EC6A71 /* ScheduleVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5BE57BA21FBF647D0088101B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +169,11 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = LW6C38R884;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -157,8 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7082A91FC49DB000EED98F /* GoogleService-Info.plist in Resources */,
 				5B6A953C1FBF555D00ADD3E1 /* LaunchScreen.storyboard in Resources */,
-				5B6A95441FBF55DF00ADD3E1 /* GoogleService-Info-9.plist in Resources */,
 				5B6A95391FBF555D00ADD3E1 /* Assets.xcassets in Resources */,
 				5B6A95341FBF555D00ADD3E1 /* Main.storyboard in Resources */,
 			);
@@ -192,11 +235,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Beamitcourier/Pods-Beamitcourier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -226,6 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6A95311FBF555D00ADD3E1 /* SignInVC.swift in Sources */,
+				5B59A4F31FBF9B5700EC6A71 /* ScheduleVC.swift in Sources */,
+				5B59A4F11FBF9B4900EC6A71 /* FinanceVC.swift in Sources */,
+				5B59A4EF1FBF9B3D00EC6A71 /* AccountVC.swift in Sources */,
+				5BE57BA41FBF65920088101B /* mapVC.swift in Sources */,
 				5B6A952F1FBF555D00ADD3E1 /* AppDelegate.swift in Sources */,
 				5B6A95371FBF555D00ADD3E1 /* Beamitcourier.xcdatamodeld in Sources */,
 			);
@@ -351,10 +404,12 @@
 			baseConfigurationReference = 770C089401E67000F9303A8D /* Pods-Beamitcourier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Beamitcourier/Beamitcourier.entitlements;
 				DEVELOPMENT_TEAM = LW6C38R884;
 				INFOPLIST_FILE = Beamitcourier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.enrique-reyes.Beamitcourier";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enrique-reyes.Beamit-courier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -365,10 +420,12 @@
 			baseConfigurationReference = A52B4D63E61BCD675CF50DDE /* Pods-Beamitcourier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Beamitcourier/Beamitcourier.entitlements;
 				DEVELOPMENT_TEAM = LW6C38R884;
 				INFOPLIST_FILE = Beamitcourier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.enrique-reyes.Beamitcourier";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enrique-reyes.Beamit-courier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
